@@ -29,7 +29,7 @@ const App = () => {
         </div>
       ) : (
         <>
-          <Hello value={1} />
+          <Hello value={0} />
         </>
       )}
     </div>
