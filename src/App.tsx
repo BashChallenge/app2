@@ -8,8 +8,8 @@ const App = () => {
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 3000); // 3 seconds
-    return () => clearTimeout(timer); // Cleanup timer
+    const timer = setTimeout(() => setLoading(false), 3000); 
+    return () => clearTimeout(timer); 
   }, []);
 
   useEffect(() => {
